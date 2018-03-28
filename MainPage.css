@@ -1,0 +1,255 @@
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#map{
+    height: 100%;
+    width: 65%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+#map_input{
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 50%;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+#map_input:focus{
+    border-color: #4d90fe;
+}
+#heading{
+    height: 20%;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:200;
+}
+#card_container{
+    height: 100%;
+    width: 25%;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 30px;
+
+    float: left;
+}
+
+#exptression{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+#photo{
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJsn8MJBMQPUGtwl0wtoJ3etD7XR66FFWCYMDLjSklhmqcZD4");
+    background-size: 50px 50px;
+}
+#summary{
+    font-size: 30px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: right;
+}
+
+#time_card{
+    height: 25px;
+    width: 100%;
+    margin-top: 10px;
+}
+#time{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: left;
+}
+#time_zone{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: right;
+}
+#tempe_card{
+    height: 25px;
+    width: 100%;
+    margin-top: 10px;
+}
+#temp{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: left;
+}
+#temperature{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: right;
+}
+#hum_card{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+#hum{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: left;
+}
+#humidity{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: right;
+}
+#vis_card{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+#vis{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: left;
+}
+#visibility{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: right;
+}
+#press_card{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+#press{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: left;
+}
+#pressure{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: right;
+}
+#vis_card{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+#vis{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: left;
+}
+#visibility{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: right;
+}
+#cc_card{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+#cc{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: left;
+}
+#cloudCover{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: right;
+}
+
+#ws_card{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+#ws{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: left;
+}
+#wind_speed{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: right;
+}
+#pp_card{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+#pp{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: left;
+}
+#precipProbability{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    float: right;
+}
+#weather_card{
+    width: 100%;
+    padding: 10px;
+
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+#container{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+
+}

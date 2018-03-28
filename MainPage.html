@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="MainPage.css" type="text/css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700">
+
+</head>
+<body>
+
+
+    <div id="container">
+
+
+        <input type="text" id="map_input" placeholder="Search ...">
+
+        <div id="card_container">
+            <div id="heading">
+                Weather Report
+            </div>
+            <div id="weather_card">
+                <div id="exptression">
+
+                    <div id="photo"></div>
+
+                    <div id="summary">
+                        Partial Cloudy
+                    </div>
+                </div>
+                <div id="time_card">
+                    <div id="time">
+                        Time Zone
+                    </div>
+
+                    <div id="time_zone">
+                        -
+                    </div>
+                </div>
+                <div id="tempe_card">
+                    <div id="temp">
+                        Temperature
+                    </div>
+
+                    <div id="temperature">
+                        -
+                    </div>
+                </div>
+                <div id="hum_card">
+                    <div id="hum">
+                        Humidity
+                    </div>
+                    <div id="humidity">
+                        -
+                    </div>
+                </div>
+                <div id="vis_card">
+                    <div id="vis">
+                        Visiblity
+                    </div>
+                    <div id="visibility">
+                        -
+                    </div>
+                </div>
+                <div id="press_card">
+                    <div id="press">
+                        Pressure
+                    </div>
+                    <div id="pressure">
+                       -
+                    </div>
+                </div>
+                <div id="ws_card">
+                    <div id="ws">
+                        Wind Speed
+                    </div>
+                    <div id="wind_speed">
+                        -
+                    </div>
+                </div>
+                <div id="cc_card">
+                    <div id="cc">
+                        Cloud Cover
+                    </div>
+                    <div id="cloudCover">
+                        -
+                    </div>
+                </div>
+                <div id="pp_card">
+                    <div id="pp">
+                        Rain Probability
+                    </div>
+                    <div id="precipProbability">
+                        -
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div id = "map"></div>
+
+
+    </div>
+
+
+
+    <script src="http://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJklKPBth_OYOEoBxTtfVXnArAHshRWe4&libraries=places&callback=initMap"
+            async defer></script>
+    <script src="MainPage.js" type="text/javascript"></script>
+</body>
+</html>
